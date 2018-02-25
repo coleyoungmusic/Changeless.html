@@ -1,0 +1,21 @@
+body {
+  margin: 60px 60px 60px 60px;
+  align-content: center;
+  background: #1c92d2;
+}
+
+.btn {
+  border-style: outset;
+  font-size: 50px;
+  background: linear-gradient(#1c92d2, #f2fcfe);
+  box-shadow: 5px 5px 5px;
+  outline: none !important;
+}
+
+.center-button {
+  align-content: center;
+}
+
+.wrapper {
+  align-content: center;
+}
