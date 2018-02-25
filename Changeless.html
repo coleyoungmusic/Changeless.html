@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Changeless</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+    <img src="https://f4.bcbits.com/img/a2901197370_10.jpg" class="img-circle" alt="Responsive image"
+    onclick="playAudio('changeless')">
+    <audio controls onplay id="changeless" hidden>
+      <source src="https://github.com/coleyoungmusic/Changeless.html/blob/master/Changeless.mp3?raw=true"/>
+    </audio>
+    <script src="audio.js"></script>
+    </div>
+    <br><br>
+    <div style="text-align:center;">
+    <button class="btn" onclick="playAudio('changeless')">
+      <span class="glyphicon glyphicon-play"></span>
+    </button>
+    
+    <button class="btn" onclick="pauseAudio('changeless')">
+      <span class="glyphicon glyphicon-pause"></span>
+    </button>
+    </div>
+  </body>
+</html>
